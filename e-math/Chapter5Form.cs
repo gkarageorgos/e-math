@@ -22,6 +22,9 @@ namespace e_math
 
         private void Chapter5Form_Load(object sender, EventArgs e)
         {
+            richTextBox1.SelectedRtf = Properties.Resources.chapter5_1;
+            richTextBox2.SelectedRtf = Properties.Resources.chapter5_2;
+            richTextBox3.SelectedRtf = Properties.Resources.chapter5_3;
             usernameTextBox.Text = username;
             scoreTextBox.Text = MainForm.instance.scores[4].ToString();
         }
@@ -29,7 +32,18 @@ namespace e_math
         private void answerButton_Click(object sender, EventArgs e)
         {
             int score5 = 0;
-            //
+            if (answer1TextBox.Text == "9/4")
+            {
+                score5 += 3;
+            }
+            if (correctRadioButton.Checked)
+            {
+                score5 += 5;
+            }
+            if (answer3TextBox.Text == "12/29")
+            {
+                score5 += 10;
+            }
             scoreTextBox.Text = score5.ToString();
             Score s = new Score();
             s.openConnection();

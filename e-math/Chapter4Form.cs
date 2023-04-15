@@ -29,7 +29,18 @@ namespace e_math
         private void answerButton_Click(object sender, EventArgs e)
         {
             int score4 = 0;
-            //
+            if (answer1TextBox.Text == "3/2")
+            {
+                score4 += 3;
+            }
+            if (answer2TextBox.Text == "19/15")
+            {
+                score4 += 5;
+            }
+            if (answer3TextBox.Text == "16/15")
+            {
+                score4 += 10;
+            }
             scoreTextBox.Text = score4.ToString();
             Score s = new Score();
             s.openConnection();

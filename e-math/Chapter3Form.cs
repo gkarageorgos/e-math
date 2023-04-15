@@ -29,7 +29,18 @@ namespace e_math
         private void answerButton_Click(object sender, EventArgs e)
         {
             int score3 = 0;
-            //
+            if (answer1TextBox.Text == "5/7")
+            {
+                score3 += 3;
+            }
+            if (correctRadioButton.Checked)
+            {
+                score3 += 5;
+            }
+            if (answer3TextBox.Text == "5")
+            {
+                score3 += 10;
+            }
             scoreTextBox.Text = score3.ToString();
             Score s = new Score();
             s.openConnection();

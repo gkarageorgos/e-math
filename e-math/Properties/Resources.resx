@@ -121,4 +121,13 @@
   <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\pictures\book.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chapter5-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\homework\chapter5.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-7</value>
+  </data>
+  <data name="chapter5_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\homework\chapter5-1.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1253</value>
+  </data>
+  <data name="chapter5_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\homework\chapter5-3.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1253</value>
+  </data>
 </root>
